@@ -10,25 +10,48 @@ files into subfolders based on their file extension.
 Before running the script, a messy folder might look like this:
 
 Downloads/
-├── report.pdf
-├── photo.jpg
-├── notes.txt
-├── budget.xlsx
-├── selfie.JPG
-└── readme.txt
+
+
+    ├── report.pdf
+
+    ├── photo.jpg
+
+    ├── notes.txt
+
+    ├── budget.xlsx
+
+    ├── selfie.JPG
+
+    └── readme.txt
 
 After running the script, it looks like this:
+
 Downloads/
+---
 ├── pdf/
-│   └── report.pdf
+
+
+      └── report.pdf
+      
 ├── jpg/
-│   ├── photo.jpg
-│   └── selfie.jpg
+
+
+      ├── photo.jpg
+
+      └── selfie.jpg
+      
 ├── txt/
-│   ├── notes.txt
-│   └── readme.txt
+
+
+      ├── notes.txt
+
+      └── readme.txt
+      
 └── xlsx/
-└── budget.xlsx
+
+
+      └── budget.xlsx
+    
 
 Every file type gets its own folder. The script creates those 
 folders automatically if they do not already exist.
@@ -72,21 +95,33 @@ For example:
 ---
 
 ## Example Output
-Starting file organiser...
-Target folder: /home/afaq/Downloads
-Created folder: pdf/
-Moved: report.pdf → pdf/
-Created folder: jpg/
-Moved: photo.jpg → jpg/
-Moved: selfie.jpg → jpg/
-Created folder: txt/
-Moved: notes.txt → txt/
-Moved: readme.txt → txt/
-Created folder: xlsx/
-Moved: budget.xlsx → xlsx/
-Done. 6 file(s) organised.
 
----
+    Starting file organiser...
+
+    Target folder: /home/afaq/Downloads
+
+    Created folder: pdf/
+
+    Moved: report.pdf → pdf/
+
+    Created folder: jpg/
+
+    Moved: photo.jpg → jpg/
+
+    Moved: selfie.jpg → jpg/
+
+    Created folder: txt/
+
+    Moved: notes.txt → txt/
+
+    Moved: readme.txt → txt/
+
+    Created folder: xlsx/
+
+    Moved: budget.xlsx → xlsx/
+
+    Done. 6 file(s) organised.
+    
 
 ## What I Learned Building This
 
